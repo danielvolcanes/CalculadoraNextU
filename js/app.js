@@ -17,7 +17,7 @@ var calculadora = {
 		var evento = eventoTecla || window.event; //capturamos el evento
 		switch(evento.type) {
 			case 'mousedown': //Si se oprime la tecla
-				this.style="box-shadow: inset -50px -50px 50px 50px rgba(133,126,136,1); width: 21.2%; height: 61.2px";
+				this.style="box-shadow: inset -50px -50px 50px 50px rgba(133,126,136,1); width: 21.15%; height: 61.15px";
 				break;
 			case 'mouseup': //si se suelta la tecla
 				this.style="box-shadow: 0 0 0 0 rgba(0,0,0,0)";
