@@ -129,14 +129,17 @@ var calculadora = {
 					break;
 				case 'resta':
 					resultado=parseFloat(Operador1)-parseFloat(Operador2);
+					console.log(Operador1+" - "+Operador2+ "=" +resultado)
 					return(resultado);
 					break;
 				case 'por':
 					resultado=parseFloat(Operador1)*parseFloat(Operador2);
+					console.log(Operador1+" * "+Operador2+ "=" +resultado)
 					return(resultado);
 					break;
 				case 'dividido':
 					resultado=parseFloat(Operador1)/parseFloat(Operador2);
+					console.log(Operador1+" / "+Operador2+ "=" +resultado)
 					return(resultado);
 					break;
 
